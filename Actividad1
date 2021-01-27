@@ -1,0 +1,33 @@
+public class MetodoExhaucion {
+
+ 
+    public static void main(String[] args) {
+     int A=6; double B=1; 
+     
+    for (int x=0;x<=10;x++){    
+     double C=B/2;//x
+     double numero= 1-(C*C);
+     double D=Math.sqrt(numero);//a
+     
+     double E=1-D;//b
+     
+     double numero1=(C*C)+(E*E);
+     double F=Math.sqrt(numero1);//Nlado
+     
+     double G=A*B;//p
+     
+     double H=G/2;
+     
+       System.out.println(A+"  "+B+"  "+C+"  "+D+"  "+F+"  "+G+"  "+H);
+        
+         
+     A=A*2;
+     B=F;
+    }//fin for
+     
+     
+    
+    
+    }
+    
+}
